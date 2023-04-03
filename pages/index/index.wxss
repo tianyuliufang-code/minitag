@@ -1,0 +1,7 @@
+/* pages/index/index.wxss */
+
+.add-btn {
+  position:fixed;
+  bottom: 80px;
+  right: 80px;
+}
