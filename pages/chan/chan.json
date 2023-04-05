@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "mp-dialog": "weui-miniprogram/dialog/dialog"
+  }, 
+   
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#217dc9",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "white"
+  
+}

@@ -1,10 +1,43 @@
 {
+  "useExtendedLib": {
+    "weui": true
+  },  
   "pages":[
     "pages/index/index",
-    "pages/edit/edit"
+    "pages/edit/edit",
+    "pages/chan/chan",
+    "pages/setmore/setmore"
   ],
+
+  "requiredBackgroundModes": ["audio","location"],
+
   "window":{
-    "navigationStyle":"custom"
+    "navigationStyle":"custom",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#EDEDED",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "black"
+
   },
-    "lazyCodeLoading": "requiredComponents"
+
+  "lazyCodeLoading": "requiredComponents",
+
+  "tabBar": {
+    "color": "#cdcdcd",
+    "selectedColor": "#000000",
+    "borderStyle": "black",
+    "backgroundColor": "#f7f7f7",
+      "list":[
+        {
+          "pagePath":"pages/index/index",
+          "text":"Todolist"
+        },
+        {
+          "pagePath":"pages/chan/chan",
+          "text":"禅定"
+
+        }
+      ]
+    },
+    "sitemapLocation": "sitemap.json"
 }
